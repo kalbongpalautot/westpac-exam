@@ -59,7 +59,6 @@ dependencies {
 	// This uses Jitpack to build and import multiple modules from Github
 	//testCompile 'org.concordion:cubano:0.1.0-SNAPSHOT'
     //testCompile 'com.github.concordion:cubano:config-SNAPSHOT'
-	//testCompile 'com.github.concordion:cubano:-SNAPSHOT'
 	testCompile 'com.github.concordion:cubano:master-SNAPSHOT'
 	
 	testCompile 'org.codejargon:fluentjdbc:1.6'
