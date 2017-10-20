@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1508445849649" analysisTimestamp="1508445849728" release="">
+  <Project projectName="">
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/AppConfig$1.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/AppConfig$Holder.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/AppConfig.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/database/ExampleDatabase.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/database/ExampleDataSourceFactory.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/services/ExampleRestApi.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/services/ServiceBase$Action.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/services/ServiceBase.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/ui/google/GoogleSearchPage.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/ui/google/SearchResult.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/ui/PageObject.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/driver/workflow/Workflow.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/ConcordionBase.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/ConcordionFixture$1.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/ConcordionFixture.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/ConcordionIndex.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/google/Google.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/google/SearchForConcordionFixture.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/service/RestRequestFixture.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/service/Service.class</Jar>
+    <Jar>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/classes/test/org/concordion/cubano/specification/Specification.class</Jar>
+    <AuxClasspathEntry>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/libs/ojdbc7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion/cubano/master-SNAPSHOT/f8500a9858c4f0403817d95383e94ba6ace9d2db/cubano-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.codejargon/fluentjdbc/1.6/50d6a9795db59f15b4c3f9d1ad7faea197f7a721/fluentjdbc-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.2/7a87d845ad3a155297e8f67d9008f4c1e5656b71/commons-beanutils-1.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/net.sourceforge.findbugs/annotations/1.3.2/d77bc83e0408680034a29481a89de0dba9802a97/annotations-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-config/master-SNAPSHOT/3e1161962a0d2db2c961048adbb272139b69074f/cubano-config-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-core/master-SNAPSHOT/2d69a624165683b29e6ac88352023f626904615/cubano-core-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-framework/master-SNAPSHOT/9ad93438edda850822af7853d0d10281636b6eec/cubano-framework-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-http/master-SNAPSHOT/2aec61bcb23e91f644883d0accc29c825a364d91/cubano-http-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-httpeasy/master-SNAPSHOT/6d0df899d9ca37ec07d7ad0604878a526197da6d/cubano-httpeasy-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-webdriver/master-SNAPSHOT/9e53b3123baf8d84075a6d3a3e58838f0408f023/cubano-webdriver-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.github.concordion.cubano/cubano-webdriver-manager/master-SNAPSHOT/f78a098b0fe80f848481079b0b1afb474ddd4553/cubano-webdriver-manager-master-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-parallel-run-extension/1.1.0/52163056486449f6c03124396656bc16202d8619/concordion-parallel-run-extension-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-timestamp-formatter-extension/1.1.2/d2d9a8912131e90da06637b4f284ba30e52c4a80/concordion-timestamp-formatter-extension-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-run-totals-extension/1.1.0/713bb2917613f72b02cbaa0c4d06a9e05980988f/concordion-run-totals-extension-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-logging-tooltip-extension/1.1.2/221a95c46eee61a7d4dedaa921b69070f65addfc/concordion-logging-tooltip-extension-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-embed-extension/1.1.2/d7c1c986e4932778af353bf8b0914aa5d23c1261/concordion-embed-extension-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-executeonlyif-extension/0.2.1/c6aad4dc061fe4dcee1a31354b83601cd0e9bd4e/concordion-executeonlyif-extension-0.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-logback-extension/2.0.0-SNAPSHOT/36eef815854a1bb6737e06880a08d01cfe3e74d1/concordion-logback-extension-2.0.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-logback-extension/2.0.0-SNAPSHOT/30b6876f18d7fadbb3fc0537347f0b4cbfa49b1/concordion-logback-extension-2.0.0-SNAPSHOT-reportlogger.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion-storyboard-extension/2.0.0-SNAPSHOT/8373b23bb973906de052665dbff2a8882e8a1acb/concordion-storyboard-extension-2.0.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.18/4a4c0e0e174161652c7a00caba43fab1211683e5/htmlelements-java-1.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/io.github.bonigarcia/webdrivermanager/1.7.2/8114ee5bd413bea97028e82598db048b1e97e78b/webdrivermanager-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/junit/junit/4.12/junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1/d6bd70813a8e101865da62ff8ca381683133d611/ognl-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.pegdown/pegdown/1.6.0/231ae49d913467deb2027d0b8a0b68b231deef4f/pegdown-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/xom/xom/1.2.5/4166493b9f04e91b858ba4150b28b4d197f8f8ea/xom-1.2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-ext/1.7.25/d1685f86e2becda32ad8bb823b8cc4990eb45f69/slf4j-ext-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.rauschig/jarchivelib/0.7.1/47a77274cc38cfe6c04bc2afa3ece808742dc42b/jarchivelib-0.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.9/cc18955ff1e36d5abd39a14bfe82b19154330a34/commons-compress-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.concordion/concordion/2.1.1/f031feae84fc9dfc33d513e67e8f360e7a878db6/concordion-2.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/javassist/javassist/3.11.0.GA/2c00105734a57e9ee4f27e4b17cd43200e5f0ff8/javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-java/1.1.7/2298c64ce8ee8e2fb37e97e16d7be52f0c7cf61f/parboiled-java-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/marcpaulmgorospe/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar</AuxClasspathEntry>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/AppConfig.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/database/ExampleDatabase.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/database/ExampleDataSourceFactory.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/services/ExampleRestApi.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/services/ServiceBase.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/ui/google/GoogleSearchPage.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/ui/google/SearchResult.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/ui/PageObject.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/driver/workflow/Workflow.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/ConcordionBase.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/ConcordionFixture.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/ConcordionIndex.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/google/Google.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/google/SearchForConcordionFixture.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/service/RestRequestFixture.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/service/Service.java</SrcDir>
+    <SrcDir>/Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/src/test/java/org/concordion/cubano/specification/Specification.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 20 Oct 2017 09:44:09 +1300" total_classes="21" referenced_classes="174" total_bugs="0" total_size="372" num_packages="9" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="16.16" clock_seconds="5.39" peak_mbytes="193.14" alloc_mbytes="1820.50" gc_seconds="0.08">
+    <PackageStats package="org.concordion.cubano" total_bugs="0" total_types="3" total_size="38">
+      <ClassStats class="org.concordion.cubano.AppConfig" sourceFile="AppConfig.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.AppConfig$1" sourceFile="AppConfig.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.AppConfig$Holder" sourceFile="AppConfig.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.driver.database" total_bugs="0" total_types="2" total_size="43">
+      <ClassStats class="org.concordion.cubano.driver.database.ExampleDataSourceFactory" sourceFile="ExampleDataSourceFactory.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.driver.database.ExampleDatabase" sourceFile="ExampleDatabase.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.driver.services" total_bugs="0" total_types="3" total_size="82">
+      <ClassStats class="org.concordion.cubano.driver.services.ExampleRestApi" sourceFile="ExampleRestApi.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.driver.services.ServiceBase" sourceFile="ServiceBase.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.driver.services.ServiceBase$Action" sourceFile="ServiceBase.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.driver.ui" total_bugs="0" total_types="1" total_size="25">
+      <ClassStats class="org.concordion.cubano.driver.ui.PageObject" sourceFile="PageObject.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.driver.ui.google" total_bugs="0" total_types="2" total_size="39">
+      <ClassStats class="org.concordion.cubano.driver.ui.google.GoogleSearchPage" sourceFile="GoogleSearchPage.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.driver.ui.google.SearchResult" sourceFile="SearchResult.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.driver.workflow" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="org.concordion.cubano.driver.workflow.Workflow" sourceFile="Workflow.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.specification" total_bugs="0" total_types="5" total_size="114">
+      <ClassStats class="org.concordion.cubano.specification.ConcordionBase" sourceFile="ConcordionBase.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.ConcordionFixture" sourceFile="ConcordionFixture.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.ConcordionFixture$1" sourceFile="ConcordionFixture.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.ConcordionIndex" sourceFile="ConcordionIndex.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.Specification" sourceFile="Specification.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.specification.google" total_bugs="0" total_types="2" total_size="11">
+      <ClassStats class="org.concordion.cubano.specification.google.Google" sourceFile="Google.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.google.SearchForConcordionFixture" sourceFile="SearchForConcordionFixture.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.concordion.cubano.specification.service" total_bugs="0" total_types="2" total_size="10">
+      <ClassStats class="org.concordion.cubano.specification.service.RestRequestFixture" sourceFile="RestRequestFixture.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.concordion.cubano.specification.service.Service" sourceFile="Service.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="701" invocations="1013" avgMicrosecondsPerInvocation="692" maxMicrosecondsPerInvocation="55323" standardDeviationMircosecondsPerInvocation="3301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="596" invocations="1004" avgMicrosecondsPerInvocation="593" maxMicrosecondsPerInvocation="24314" standardDeviationMircosecondsPerInvocation="1516"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="320" invocations="174" avgMicrosecondsPerInvocation="1839" maxMicrosecondsPerInvocation="24498" standardDeviationMircosecondsPerInvocation="3452"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="270" invocations="174" avgMicrosecondsPerInvocation="1556" maxMicrosecondsPerInvocation="12589" standardDeviationMircosecondsPerInvocation="2361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="190" invocations="262" avgMicrosecondsPerInvocation="726" maxMicrosecondsPerInvocation="6500" standardDeviationMircosecondsPerInvocation="889"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="109" invocations="255" avgMicrosecondsPerInvocation="429" maxMicrosecondsPerInvocation="55110" standardDeviationMircosecondsPerInvocation="3469"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="97" invocations="174" avgMicrosecondsPerInvocation="557" maxMicrosecondsPerInvocation="16693" standardDeviationMircosecondsPerInvocation="1660"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="91" invocations="77" avgMicrosecondsPerInvocation="1182" maxMicrosecondsPerInvocation="12201" standardDeviationMircosecondsPerInvocation="1906"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="90" invocations="966" avgMicrosecondsPerInvocation="94" maxMicrosecondsPerInvocation="2559" standardDeviationMircosecondsPerInvocation="185"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="87" invocations="174" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="13277" standardDeviationMircosecondsPerInvocation="1347"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="84" invocations="78" avgMicrosecondsPerInvocation="1078" maxMicrosecondsPerInvocation="69342" standardDeviationMircosecondsPerInvocation="7781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="78" invocations="174" avgMicrosecondsPerInvocation="450" maxMicrosecondsPerInvocation="41923" standardDeviationMircosecondsPerInvocation="3221"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="76" invocations="76" avgMicrosecondsPerInvocation="1006" maxMicrosecondsPerInvocation="8032" standardDeviationMircosecondsPerInvocation="1456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="73" invocations="77" avgMicrosecondsPerInvocation="958" maxMicrosecondsPerInvocation="15827" standardDeviationMircosecondsPerInvocation="2103"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="73" invocations="174" avgMicrosecondsPerInvocation="419" maxMicrosecondsPerInvocation="5067" standardDeviationMircosecondsPerInvocation="668"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="72" invocations="77" avgMicrosecondsPerInvocation="938" maxMicrosecondsPerInvocation="22193" standardDeviationMircosecondsPerInvocation="2574"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="70" invocations="174" avgMicrosecondsPerInvocation="408" maxMicrosecondsPerInvocation="12347" standardDeviationMircosecondsPerInvocation="1082"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="70" invocations="81" avgMicrosecondsPerInvocation="875" maxMicrosecondsPerInvocation="17626" standardDeviationMircosecondsPerInvocation="2032"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="63" invocations="76" avgMicrosecondsPerInvocation="839" maxMicrosecondsPerInvocation="7207" standardDeviationMircosecondsPerInvocation="1144"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

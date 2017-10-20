@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.concordion.cubano.specification.google.Google" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-19T20:44:27" hostname="Marcs-MacBook-Pro.local" time="14.694">
+  <properties/>
+  <testcase name="[Concordion Specification for 'Google']" classname="org.concordion.cubano.specification.google.Google" time="14.694">
+    <failure message="org.concordion.internal.ConcordionAssertionError: Specification has exception(s). See output HTML for details." type="org.concordion.internal.ConcordionAssertionError">org.concordion.internal.ConcordionAssertionError: Specification has exception(s). See output HTML for details.
+	at org.concordion.internal.ImplementationStatusChecker$3.assertIsSatisfied(ImplementationStatusChecker.java:104)
+	at org.concordion.internal.SummarizingResultRecorder.assertIsSatisfied(SummarizingResultRecorder.java:45)
+	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:208)
+	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
+	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:191)
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.concordion.integration.junit4.ConcordionRunner.run(ConcordionRunner.java:150)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[09:44:25,899 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/Volumes/DATA/MARCG/WORK/Working%20Folder/automation/cubano-template-master/build/resources/test/logback-test.xml]
+09:44:26,000 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:44:26,008 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@18bf2e1c - Adding [file:/Volumes/DATA/MARCG/WORK/Working%20Folder/automation/cubano-template-master/build/resources/test/logback-include.xml] to configuration watch list.
+09:44:26,013 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:44:26,017 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+09:44:26,025 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:44:26,056 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:44:26,056 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT-INFO]
+09:44:26,059 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:44:26,060 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.sift.SiftingAppender]
+09:44:26,062 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE-PER-TEST]
+09:44:26,075 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:44:26,081 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.sift.SiftingAppender]
+09:44:26,081 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [HTML-FILE-PER-TEST]
+09:44:26,082 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:44:26,084 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.http] to DEBUG
+09:44:26,084 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.openqa.selenium] to DEBUG
+09:44:26,084 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.sun.activation.registries.LogSupport] to DEBUG
+09:44:26,084 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [groovy.sql.Sql] to DEBUG
+09:44:26,084 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [sun.net.www.protocol.http.HttpURLConnection] to DEBUG
+09:44:26,085 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [selenium.events] to false
+09:44:26,085 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE-PER-TEST] to Logger[selenium.events]
+09:44:26,086 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ALL
+09:44:26,086 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+09:44:26,086 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [HTML-FILE-PER-TEST] to Logger[ROOT]
+09:44:26,086 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:44:26,087 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@8d2da3d - Registering current configuration as safe fallback point
+
+20-10-2017 09:44:26.112 DEBUG org.concordion.cubano.utils.Config - Loading Proxy settings from configuration file(s)
+20-10-2017 09:44:26.219 INFO  org.concordion.cubano.AppConfig - Environment:        dev
+20-10-2017 09:44:26.221 INFO  org.concordion.cubano.AppConfig - url:                https://www.google.co.nz
+20-10-2017 09:44:26.229 DEBUG org.concordion.cubano.utils.Config - Loading Proxy settings from configuration file(s)
+20-10-2017 09:44:27.393 INFO  o.c.c.s.g.SearchForConcordionFixture - Initialising the acceptance test class google.SearchForConcordionFixture on thread Test worker
+20-10-2017 09:44:27.405 INFO  o.c.c.s.g.SearchForConcordionFixture - Starting example google-concordion for test fixture google.SearchForConcordionFixture
+20-10-2017 09:44:27.525 DEBUG org.concordion.cubano.utils.Config - Loading Proxy settings from configuration file(s)
+20-10-2017 09:44:27.575 DEBUG o.c.cubano.driver.web.Browser - Starting browser
+20-10-2017 09:44:28.253 WARN  i.g.bonigarcia.wdm.BrowserManager - Network not available. Forcing the use of cache
+20-10-2017 09:44:28.256 TRACE i.g.bonigarcia.wdm.BrowserManager - Checking if wires exists in cache /Users/marcpaulmgorospe/.m2/repository/webdriver
+20-10-2017 09:44:28.320 TRACE i.g.bonigarcia.wdm.BrowserManager - Checking /Users/marcpaulmgorospe/.m2/repository/webdriver/geckodriver/macos/0.19.0/geckodriver
+20-10-2017 09:44:28.321 TRACE i.g.bonigarcia.wdm.BrowserManager - wires do not exist in cache /Users/marcpaulmgorospe/.m2/repository/webdriver
+20-10-2017 09:44:28.322 TRACE i.g.bonigarcia.wdm.BrowserManager - Checking if geckodriver exists in cache /Users/marcpaulmgorospe/.m2/repository/webdriver
+20-10-2017 09:44:28.324 TRACE i.g.bonigarcia.wdm.BrowserManager - Checking /Users/marcpaulmgorospe/.m2/repository/webdriver/geckodriver/macos/0.19.0/geckodriver
+20-10-2017 09:44:28.325 INFO  i.g.bonigarcia.wdm.BrowserManager - Found geckodriver in cache: /Users/marcpaulmgorospe/.m2/repository/webdriver/geckodriver/macos/0.19.0/geckodriver 
+20-10-2017 09:44:28.327 DEBUG i.g.bonigarcia.wdm.BrowserManager - Driver for [wires, geckodriver] LATEST found in cache /Users/marcpaulmgorospe/.m2/repository/webdriver/geckodriver/macos/0.19.0/geckodriver
+20-10-2017 09:44:28.328 INFO  i.g.bonigarcia.wdm.BrowserManager - Exporting webdriver.gecko.driver as /Users/marcpaulmgorospe/.m2/repository/webdriver/geckodriver/macos/0.19.0/geckodriver
+20-10-2017 09:44:37.839 DEBUG o.c.c.driver.web.SeleniumEventLogger - Navigating to https://www.google.co.nz
+20-10-2017 09:44:40.406 INFO  o.c.c.d.ui.google.GoogleSearchPage - Page Object: GoogleSearchPage
+20-10-2017 09:44:40.506 DEBUG o.c.c.d.ui.google.GoogleSearchPage - Wait for any ajax requests to complete
+20-10-2017 09:44:40.576 TRACE o.c.c.driver.web.SeleniumEventLogger - Run JavaScript 
+20-10-2017 09:44:40.611 TRACE o.c.c.driver.web.SeleniumEventLogger - Find element  By.className: Spinner
+20-10-2017 09:44:40.627 DEBUG o.c.c.d.ui.google.GoogleSearchPage - Checking GoogleSearchPage loads within 5 seconds
+20-10-2017 09:44:41.776 ERROR o.c.e.storyboard.StoryboardListener - Exception thrown while evaluating expression 'google(#term, #TEXT)':
+	null
+java.lang.NullPointerException: null
+	at ru.yandex.qatools.htmlelements.loader.decorator.proxyhandlers.WebElementNamedProxyHandler.invoke(WebElementNamedProxyHandler.java:50)
+
+file:///Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/reports/spec/org/concordion/cubano/specification/google/SearchForConcordion.html#google-concordion
+Successes: 0, Failures: 0, Exceptions: 1
+20-10-2017 09:44:41.784 INFO  o.c.c.s.g.SearchForConcordionFixture - Tearing down the acceptance test class SearchForConcordionFixture on thread Test worker
+
+file:///Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/reports/spec/org/concordion/cubano/specification/google/SearchForConcordion.html
+Successes: 0, Failures: 0, Exceptions: 1
+
+file:///Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/reports/spec/org/concordion/cubano/specification/google/Google.html
+Successes: 0, Failures: 0, Exceptions: 1
+20-10-2017 09:44:41.915 DEBUG o.c.cubano.driver.web.Browser - Closing browser
+]]></system-out>
+  <system-err><![CDATA[1508445881921	Marionette	INFO	New connections will no longer be accepted
+1508445881943	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1508445881943	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 65
+1508445881944	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 10.12.0
+1508445881955	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 0.1
+1508445881956	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1508445881957	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.3
+1508445881957	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1508445881958	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.00
+1508445881958	addons.xpi	DEBUG	Calling bootstrap method shutdown on clicktoplay-rollout@mozilla.org version 1.4
+1508445881959	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1508445881959	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 0.0.0
+]]></system-err>
+</testsuite>

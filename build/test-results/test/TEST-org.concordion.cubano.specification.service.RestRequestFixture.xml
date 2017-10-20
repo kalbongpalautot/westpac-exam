@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.concordion.cubano.specification.service.RestRequestFixture" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-19T20:44:42" hostname="Marcs-MacBook-Pro.local" time="0.648">
+  <properties/>
+  <testcase name="google-concordion" classname="org.concordion.cubano.specification.service.RestRequestFixture" time="0.648">
+    <failure message="org.concordion.internal.FailFastException: An exception was thrown in a @FailFast fixture" type="org.concordion.internal.FailFastException">org.concordion.internal.FailFastException: An exception was thrown in a @FailFast fixture
+	at org.concordion.internal.command.ThrowableCatchingDecorator.rethrowFailFastException(ThrowableCatchingDecorator.java:55)
+	at org.concordion.internal.command.ThrowableCatchingDecorator.process(ThrowableCatchingDecorator.java:45)
+	at org.concordion.api.AbstractCommandDecorator.verify(AbstractCommandDecorator.java:31)
+	at org.concordion.api.CommandCall.verify(CommandCall.java:76)
+	at org.concordion.api.CommandCallList.processSequentially(CommandCallList.java:34)
+	at org.concordion.internal.command.ExampleCommand.execute(ExampleCommand.java:42)
+	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
+	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
+	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
+	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
+	at org.concordion.internal.command.ThrowableCatchingDecorator.process(ThrowableCatchingDecorator.java:38)
+	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
+	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
+	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:61)
+	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:85)
+	at org.concordion.Concordion.processExample(Concordion.java:103)
+	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:38)
+	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:207)
+	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
+	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:191)
+	at org.concordion.integration.junit4.ConcordionRunner.runChild(ConcordionRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.concordion.integration.junit4.ConcordionRunner.run(ConcordionRunner.java:150)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.concordion.internal.InvalidExpressionException: org.concordion.cubano.driver.http.HttpResponseException: Server returned HTTP response code 404: Not Found
+Response Content: &lt;!DOCTYPE html&gt;
+&lt;html lang=en&gt;
+  &lt;meta charset=utf-8&gt;
+  &lt;meta name=viewport content=&quot;initial-scale=1, minimum-scale=1, width=device-width&quot;&gt;
+  &lt;title&gt;Error 404 (Not Found)!!1&lt;/title&gt;
+  &lt;style&gt;
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  &lt;/style&gt;
+  &lt;a href=//www.google.com/&gt;&lt;span id=logo aria-label=Google&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;p&gt;&lt;b&gt;404.&lt;/b&gt; &lt;ins&gt;That’s an error.&lt;/ins&gt;
+  &lt;p&gt;The requested URL &lt;code&gt;/get?name=fred&lt;/code&gt; was not found on this server.  &lt;ins&gt;That’s all we know.&lt;/ins&gt;
+	at org.concordion.cubano.driver.http.HttpEasyReader.&lt;init&gt;(HttpEasyReader.java:65)
+	at org.concordion.cubano.driver.http.HttpEasy.get(HttpEasy.java:564)
+	at org.concordion.cubano.driver.services.ExampleRestApi.getIPAddress(ExampleRestApi.java:16)
+	at org.concordion.cubano.specification.service.RestRequestFixture.callService(RestRequestFixture.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at ognl.OgnlRuntime.invokeMethod(OgnlRuntime.java:872)
+	at ognl.OgnlRuntime.callAppropriateMethod(OgnlRuntime.java:1295)
+	at ognl.ObjectMethodAccessor.callMethod(ObjectMethodAccessor.java:68)
+	at ognl.OgnlRuntime.callMethod(OgnlRuntime.java:1371)
+	at ognl.ASTMethod.getValueBody(ASTMethod.java:90)
+	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at ognl.Ognl.getValue(Ognl.java:494)
+	at ognl.Ognl.getValue(Ognl.java:596)
+	at ognl.Ognl.getValue(Ognl.java:566)
+	at org.concordion.internal.OgnlEvaluator.evaluate(OgnlEvaluator.java:24)
+	at org.concordion.internal.SimpleEvaluator.evaluate(SimpleEvaluator.java:12)
+	at org.concordion.internal.command.BooleanCommand.verify(BooleanCommand.java:33)
+	at org.concordion.api.AbstractCommandDecorator$3.run(AbstractCommandDecorator.java:33)
+	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
+	at org.concordion.api.AbstractCommandDecorator.verify(AbstractCommandDecorator.java:31)
+	at org.concordion.api.AbstractCommandDecorator$3.run(AbstractCommandDecorator.java:33)
+	at org.concordion.internal.command.ThrowableCatchingDecorator.process(ThrowableCatchingDecorator.java:38)
+	... 58 more
+Caused by: org.concordion.cubano.driver.http.HttpResponseException: Server returned HTTP response code 404: Not Found
+Response Content: &lt;!DOCTYPE html&gt;
+&lt;html lang=en&gt;
+  &lt;meta charset=utf-8&gt;
+  &lt;meta name=viewport content=&quot;initial-scale=1, minimum-scale=1, width=device-width&quot;&gt;
+  &lt;title&gt;Error 404 (Not Found)!!1&lt;/title&gt;
+  &lt;style&gt;
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  &lt;/style&gt;
+  &lt;a href=//www.google.com/&gt;&lt;span id=logo aria-label=Google&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;p&gt;&lt;b&gt;404.&lt;/b&gt; &lt;ins&gt;That’s an error.&lt;/ins&gt;
+  &lt;p&gt;The requested URL &lt;code&gt;/get?name=fred&lt;/code&gt; was not found on this server.  &lt;ins&gt;That’s all we know.&lt;/ins&gt;
+	... 84 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[20-10-2017 09:44:42.628 INFO  o.c.c.s.service.RestRequestFixture - Initialising the acceptance test class service.RestRequestFixture on thread Test worker
+20-10-2017 09:44:42.635 INFO  o.c.c.s.service.RestRequestFixture - Starting example google-concordion for test fixture service.RestRequestFixture
+20-10-2017 09:44:42.652 TRACE o.c.cubano.driver.http.HttpEasy - Sending GET to https://www.google.co.nz/get?name=fred
+20-10-2017 09:44:43.273 ERROR o.c.e.storyboard.StoryboardListener - Exception thrown while evaluating expression 'callService()':
+	Server returned HTTP response code 404: Not Found
+Response Content: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/get?name=fred</code> was not found on this server.  <ins>That’s all we know.</ins>
+org.concordion.cubano.driver.http.HttpResponseException: Server returned HTTP response code 404: Not Found
+Response Content: <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/get?name=fred</code> was not found on this server.  <ins>That’s all we know.</ins>
+	at org.concordion.cubano.driver.http.HttpEasyReader.<init>(HttpEasyReader.java:65)
+
+file:///Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/reports/spec/org/concordion/cubano/specification/service/RestRequest.html#google-concordion
+Successes: 0, Failures: 0, Exceptions: 1
+20-10-2017 09:44:43.281 INFO  o.c.c.s.service.RestRequestFixture - Tearing down the acceptance test class RestRequestFixture on thread Test worker
+
+file:///Volumes/DATA/MARCG/WORK/Working Folder/automation/cubano-template-master/build/reports/spec/org/concordion/cubano/specification/service/RestRequest.html
+Successes: 0, Failures: 0, Exceptions: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
