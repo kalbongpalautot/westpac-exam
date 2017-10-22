@@ -57,9 +57,17 @@ configurations.all {
 
 dependencies {
 	// This uses Jitpack to build and import multiple modules from Github
+	//testCompile 'com.github.concordion:cubano:master-SNAPSHOT'
 	//testCompile 'org.concordion:cubano:0.1.0-SNAPSHOT'
     //testCompile 'com.github.concordion:cubano:config-SNAPSHOT'
-	testCompile 'com.github.concordion:cubano:master-SNAPSHOT'
+	//testCompile 'com.github.concordion:cubano:master-SNAPSHOT'
+	testCompile 'com.github.concordion.cubano:cubano-config:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-core:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-framework:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-webdriver:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-webdriver-manager:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-http:1d961d1a29'
+	testCompile 'com.github.concordion.cubano:cubano-httpeasy:1d961d1a29'
 	
 	testCompile 'org.codejargon:fluentjdbc:1.6'
 
